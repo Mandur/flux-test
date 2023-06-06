@@ -5,3 +5,7 @@ kind: Kustomization
 
 resources:
   - ../../apps/eye/base
+
+namespace: 
+  overwrite: true
+  name: slot1
